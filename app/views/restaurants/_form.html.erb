@@ -1,0 +1,8 @@
+<%= simple_form_for(@restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :category %>
+  <p>Category must be Chinese, Italian, Japanese, French or Belgian.</p>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.submit %>
+<% end %>
